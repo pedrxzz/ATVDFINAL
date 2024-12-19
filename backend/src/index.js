@@ -5,7 +5,7 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const multer = require('multer');
 const path = require('path');
-const productRoutes = require('./routes/productRoutes');
+const productRoutes = require('../routes/productRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
